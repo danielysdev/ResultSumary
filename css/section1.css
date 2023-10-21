@@ -1,0 +1,78 @@
+/*en la linea del padding de section1 se cambio el primer valor por 42*/
+.section1{
+    width: inherit;
+    padding: 42px 25px 20px 35px;
+    justify-content: center;
+    text-align: center;
+    border-radius: inherit;
+    background-color: #6040FD;
+    display: flex;
+    flex-direction: column;
+}
+/*se cambio la p por h3 y se agrego un margin bottom*/
+.title h3{
+    margin: 0;
+    color: #C4C4ff;
+    margin-bottom: 20px;
+}
+.score{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.number1{
+    width: 90px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 45px;
+    border-radius: 50%;
+    background-color: #4B23CA;
+    color: #B9A9FD;
+    font-weight: bold;
+
+}
+/*se agrego un padding top de 15px*/
+.number1 p:nth-child(1){
+    font-family: "Rubik";
+    font-size: 68px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin: 0px;
+    padding-top: 15px;
+}
+/*se agrego esta esta parte para el segundo hijo*/
+.number1 p:nth-child(2){
+    color: #FFFFFF;
+    margin: 0px;
+    
+}
+
+.footer{
+    margin-top: -10px;
+}
+
+.mes1{
+    margin: 0;
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.ms2{
+    display: flex;
+    justify-content: center;
+}
+
+/*se modifico por un margin 0 , yo tenia margin o*/
+.ms2 p{
+    width: 75%;
+    margin: 0;
+    color: #C4C4ff;
+    font-family: "Rubik";
+    line-height: 22px;
+    margin-bottom: 20px;
+}
